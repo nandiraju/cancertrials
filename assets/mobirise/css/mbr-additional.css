@@ -585,8 +585,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1374,12 +1374,12 @@ body {
 }
 .cid-qMzRrovTVm .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #55b4d4;
   transition: none;
   min-height: 77px;
 }
 .cid-qMzRrovTVm .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #55b4d4;
 }
 .cid-qMzRrovTVm a {
   font-style: normal;
@@ -1463,7 +1463,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qMzRrovTVm .dropdown .dropdown-menu {
-  background: #333333;
+  background: #55b4d4;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1766,7 +1766,7 @@ body {
 }
 .cid-qKCA8EMdhD H1 {
   text-align: center;
-  color: #073b4c;
+  color: #0f7699;
 }
 .cid-qKCA8EMdhD .mbr-text,
 .cid-qKCA8EMdhD .mbr-section-btn {
@@ -1802,10 +1802,55 @@ body {
   font-size: 96px;
   color: #149dcc;
 }
+.cid-qMBmgrgCBz {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-facebook {
+  background: #3e5b98;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-twitter {
+  background: #4da7de;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-googleplus {
+  background: #dd4b39;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-vkontakte {
+  background: #5a7fa6;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-odnoklassniki {
+  background: #f48420;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-pinterest {
+  background: #c92619;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .socicon-bg-mail {
+  background: #134785;
+  color: #ffffff;
+}
+.cid-qMBmgrgCBz .btn-social {
+  border: none !important;
+}
+.cid-qMBmgrgCBz [class^="socicon-"]:before,
+.cid-qMBmgrgCBz [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+@media (max-width: 767px) {
+  .cid-qMBmgrgCBz .btn {
+    font-size: 20px !important;
+  }
+}
 .cid-qMzS5Coevv {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #0f7699;
 }
 .cid-qMzS5Coevv .row-links {
   width: 100%;
